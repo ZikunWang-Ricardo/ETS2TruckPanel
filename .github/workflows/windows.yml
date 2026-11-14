@@ -1,0 +1,26 @@
+name: Windows build and tests
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements-build.txt
+      - run: python tools/download_dependencies.py
+      - run: python tools/build_page.py
+      - run: python tools/build_share.py
+      - run: python -m unittest discover -s tests -v
+        env:
+          TOUCHTRUCK_TCP_TESTS: '1'
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ETS2TruckPanel-Windows-x64
+          path: dist/ETS2TruckPanel-v0.1.0-windows-x64.zip

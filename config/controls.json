@@ -1,0 +1,372 @@
+[
+  {
+    "id": "engine",
+    "label": "引擎启停",
+    "mix": "engine",
+    "keys": [
+      18
+    ],
+    "state": "engine",
+    "color": "#63D8AD",
+    "row": 1,
+    "col": 0
+  },
+  {
+    "id": "parking",
+    "label": "驻车制动",
+    "mix": "parkingbrake",
+    "keys": [
+      57
+    ],
+    "state": "parking",
+    "color": "#FF6167",
+    "row": 1,
+    "col": 1
+  },
+  {
+    "id": "trailer",
+    "label": "挂车连接",
+    "mix": "attach",
+    "keys": [
+      20
+    ],
+    "state": "trailer",
+    "color": "#63D8AD",
+    "row": 1,
+    "col": 2
+  },
+  {
+    "id": "diff_lock",
+    "label": "差速锁",
+    "mix": "diflock",
+    "keys": [
+      47
+    ],
+    "state": "diff_lock",
+    "color": "#F3B85B",
+    "row": 1,
+    "col": 3
+  },
+  {
+    "id": "axle",
+    "label": "提升桥",
+    "mix": "liftaxle",
+    "keys": [
+      22
+    ],
+    "state": "axle",
+    "color": "#F3B85B",
+    "row": 1,
+    "col": 4
+  },
+  {
+    "id": "engine_brake",
+    "label": "发动机制动",
+    "mix": "motorbrake",
+    "keys": [
+      48
+    ],
+    "hold": true,
+    "state": "engine_brake",
+    "color": "#F3B85B",
+    "row": 1,
+    "col": 5
+  },
+  {
+    "id": "cab",
+    "label": "舱内视角",
+    "mix": "cam1",
+    "keys": [
+      2
+    ],
+    "symbol": "cab",
+    "row": 1,
+    "col": 6
+  },
+  {
+    "id": "top",
+    "label": "俯视视角",
+    "mix": "cam3",
+    "keys": [
+      4
+    ],
+    "symbol": "top",
+    "row": 1,
+    "col": 7
+  },
+  {
+    "id": "left",
+    "label": "左转向",
+    "mix": "lblinker",
+    "keys": [
+      26
+    ],
+    "state": "left",
+    "color": "#63D8AD",
+    "row": 2,
+    "col": 0
+  },
+  {
+    "id": "right",
+    "label": "右转向",
+    "mix": "rblinker",
+    "keys": [
+      27
+    ],
+    "state": "right",
+    "color": "#63D8AD",
+    "row": 2,
+    "col": 1
+  },
+  {
+    "id": "hazard",
+    "label": "危险报警灯",
+    "mix": "flasher4way",
+    "keys": [
+      33
+    ],
+    "state": "hazard",
+    "color": "#FF6167",
+    "row": 2,
+    "col": 2
+  },
+  {
+    "id": "lights",
+    "label": "灯光切换",
+    "mix": "light",
+    "keys": [
+      38
+    ],
+    "state": "lights",
+    "color": "#63D8AD",
+    "row": 2,
+    "col": 3
+  },
+  {
+    "id": "high_beam",
+    "label": "远光灯",
+    "mix": "hblight",
+    "keys": [
+      37
+    ],
+    "state": "high_beam",
+    "color": "#62AAFF",
+    "row": 2,
+    "col": 4
+  },
+  {
+    "id": "flash",
+    "label": "灯光喇叭",
+    "mix": "lighthorn",
+    "keys": [
+      36
+    ],
+    "hold": true,
+    "symbol": "flash",
+    "row": 2,
+    "col": 5
+  },
+  {
+    "id": "horn",
+    "label": "喇叭",
+    "mix": "horn",
+    "keys": [
+      35
+    ],
+    "hold": true,
+    "row": 2,
+    "col": 6
+  },
+  {
+    "id": "wipers",
+    "label": "雨刷",
+    "mix": "wipers",
+    "keys": [
+      25
+    ],
+    "state": "wipers",
+    "color": "#63D8AD",
+    "row": 2,
+    "col": 7
+  },
+  {
+    "id": "cruise",
+    "label": "巡航启停",
+    "mix": "cruiectrl",
+    "keys": [
+      46
+    ],
+    "state": "cruise",
+    "color": "#63D8AD",
+    "row": 3,
+    "col": 0
+  },
+  {
+    "id": "cruise_down",
+    "label": "巡航减速",
+    "mix": "cruiectrldec",
+    "keys": [
+      285,
+      54,
+      59
+    ],
+    "bind": "f1",
+    "row": 3,
+    "col": 1
+  },
+  {
+    "id": "cruise_up",
+    "label": "巡航加速",
+    "mix": "cruiectrlinc",
+    "keys": [
+      285,
+      54,
+      60
+    ],
+    "bind": "f2",
+    "row": 3,
+    "col": 2
+  },
+  {
+    "id": "lane_mode",
+    "label": "车道辅助模式",
+    "mix": "laneassmode",
+    "keys": [
+      285,
+      54,
+      62
+    ],
+    "bind": "f4",
+    "symbol": "lane_mode",
+    "row": 3,
+    "col": 3
+  },
+  {
+    "id": "lane_assist",
+    "label": "车道保持辅助",
+    "mix": "laneassist",
+    "keys": [
+      285,
+      54,
+      63
+    ],
+    "bind": "f5",
+    "symbol": "lane",
+    "row": 3,
+    "col": 4
+  },
+  {
+    "id": "cabin_light",
+    "label": "车内照明灯",
+    "mix": "cabinlight",
+    "keys": [
+      285,
+      54,
+      88
+    ],
+    "bind": "f12",
+    "symbol": "lamp",
+    "row": 3,
+    "col": 5
+  },
+  {
+    "id": "shade_up",
+    "label": "遮阳帘升",
+    "mix": "winlshadeup",
+    "keys": [
+      285,
+      54,
+      68
+    ],
+    "bind": "f10",
+    "hold": true,
+    "symbol": "shade_up",
+    "row": 3,
+    "col": 6
+  },
+  {
+    "id": "shade_down",
+    "label": "遮阳帘降",
+    "mix": "winlshadedwn",
+    "keys": [
+      285,
+      54,
+      87
+    ],
+    "bind": "f11",
+    "hold": true,
+    "symbol": "shade_down",
+    "row": 3,
+    "col": 7
+  },
+  {
+    "id": "lwinopen",
+    "label": "左窗打开",
+    "mix": "lwinopen",
+    "keys": [
+      285,
+      54,
+      64
+    ],
+    "bind": "f6",
+    "hold": true,
+    "row": 4,
+    "col": 0
+  },
+  {
+    "id": "lwinclose",
+    "label": "左窗关闭",
+    "mix": "lwinclose",
+    "keys": [
+      285,
+      54,
+      65
+    ],
+    "bind": "f7",
+    "hold": true,
+    "row": 4,
+    "col": 1
+  },
+  {
+    "id": "rwinopen",
+    "label": "右窗打开",
+    "mix": "rwinopen",
+    "keys": [
+      285,
+      54,
+      66
+    ],
+    "bind": "f8",
+    "hold": true,
+    "row": 4,
+    "col": 2
+  },
+  {
+    "id": "rwinclose",
+    "label": "右窗关闭",
+    "mix": "rwinclose",
+    "keys": [
+      285,
+      54,
+      67
+    ],
+    "bind": "f9",
+    "hold": true,
+    "row": 4,
+    "col": 3
+  },
+  {
+    "id": "acc_mode",
+    "label": "ACC跟车模式",
+    "mix": "accmode",
+    "keys": [
+      285,
+      54,
+      61
+    ],
+    "bind": "f3",
+    "symbol": "acc",
+    "row": 4,
+    "col": 4
+  }
+]
